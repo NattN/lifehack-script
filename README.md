@@ -1,2 +1,2 @@
-# lifehack_script
-Script that make my life easier.
+# Lifehack script
+This repo contains useful scripts that I created to make my life become easier.
