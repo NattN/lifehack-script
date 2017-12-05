@@ -8,7 +8,7 @@ case ${answer:0:1} in
     y|Y )
         echo -n "Enter commit comment:  " 
 		read commit_comment
-		git add *
+		git add --all
 		git commit -m ${commit_comment}
 		git push origin master
     ;;
