@@ -9,7 +9,7 @@ case ${answer:0:1} in
         echo -n "Enter commit comment:  " 
 		read commit_comment
 		git add *
-		git commit -m "&commit_comment&"
+		git commit -m ${commit_comment}
 		git push origin master
     ;;
     * )
